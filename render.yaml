@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: AI_test_p003
+    runtime: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    env: python
